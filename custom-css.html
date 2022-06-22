@@ -1,0 +1,18 @@
+<script>
+    //display  a square with color + size from prompt()
+    color= prompt("Enter color name or code")
+    size = prompt("Enter size in pixels")
+    borderWidth = prompt("Enter the width of border")
+    borderColor = prompt("Enter the color name of border")
+    document.write(
+        `<div style="
+        background:${color};
+        width:${size}px;
+        height:${size}px;
+        border-width:${borderWidth}px;
+        border-style:dashed;
+        border-color:${borderColor};">
+        </div>`
+    )
+    //hw:user--> prompt()-->border width,color--done
+</script>
